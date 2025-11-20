@@ -1,6 +1,6 @@
 # server-ops
 
-A small collection of Bash scripts for self-hosted servers: recurring backups and Docker cleanups. Every script enables `set -euo pipefail` and writes to `/var/log`, so they can run unattended via cron or systemd timers.
+server-ops is a curated set of Bash automation scripts that keep a single self-hosted machine healthy: recurring filesystem backups pushed through `rclone` and periodic Docker hygiene tasks. Each script runs with `set -euo pipefail`, logs to `/var/log`, and is safe to schedule via cron or systemd timers.
 
 ## What's inside
 
